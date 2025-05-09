@@ -1,0 +1,47 @@
+Ask {
+  align: center middle;
+  background: #141414;
+}
+
+#modal-container {
+  align: center middle;
+  width: 100%;
+  height: 100%;
+}
+
+#modal-box {
+  width: 60;
+  height: 15;
+  background: #1a1a1a;
+  padding: 2;
+  align: center middle;
+  content-align: center middle;
+}
+
+#pin-id {
+  width: 90%;
+  height: 3;
+  align: center middle;
+  content-align: center middle;
+}
+
+#result-label {
+  text-align: center;
+  height: 1;
+  align: center middle;
+}
+
+#cancel-button, #update-button {
+  width: 12;
+  height: 3;
+  align: center middle;
+  content-align: center middle;
+  text-align: center;
+  color: white;
+  text-style: bold;
+}
+
+#button-row {
+  align: center middle;
+  content-align: center middle;
+}

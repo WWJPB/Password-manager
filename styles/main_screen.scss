@@ -1,0 +1,32 @@
+#nav {
+    layout: horizontal;
+    height: auto;
+    border-bottom: heavy #f69804;
+    background: $boost;
+    padding: 0;
+}
+
+.tab-button {
+    text-style: bold;
+    background: $surface;
+    color: gray;
+    height: 3;
+    content-align: center middle;
+}
+
+.tab-button:hover {
+    color: $text;
+    background: $primary;
+}
+
+#tab-add {
+    width: 50%;
+    align: center middle;
+    height: 3;
+}
+
+#tab-manage {
+    width: 50%;
+    align: center middle;
+    height: 3;
+}

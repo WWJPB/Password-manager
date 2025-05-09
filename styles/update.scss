@@ -1,0 +1,25 @@
+#update-container {
+    align: center middle;
+    height: 100%;
+    width: 100%;
+    background: #141414;
+}
+
+#update-box {
+    width: 50%;
+    height: 70%;
+    border: round white;
+    padding: 2;
+    align: center middle;
+}
+
+Input, Button {
+    height: 3;
+    text-style: bold;
+}
+
+#error-message {
+    color: red;
+    height: 2;
+    content-align: center middle;
+}
