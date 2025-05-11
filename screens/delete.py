@@ -20,8 +20,7 @@ class DeleteAsk(ModalScreen[str]):
             with Vertical(id="modal-box"):
                 yield Input(placeholder="Input PIN", password=True, id="pin-id")
                 yield Static(id="result-label")
-                with Center():
-                    yield Button("Cancel", id="cancel-button", variant="error")
+                yield Center(Button("Cancel", id="cancel-button", variant="error"))
 
     def on_mount(self) -> None:
         self.query_one(Input).focus()
